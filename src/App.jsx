@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
+
 import EmployeeTable from "./components/EmployeeTable";
 import AddEmployee from "./components/AddEmployee";
 import EditEmployee from "./components/EditEmployee";
+
+import "./App.css";
 
 function App() {
   return (
